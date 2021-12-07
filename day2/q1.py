@@ -6,7 +6,6 @@ def dive(input):
   
   for direction in movements:
     if direction.split()[0] == "forward":
-      print("x: ",direction.split()[1])
       x += int(direction.split()[1])
     else:
       if direction.split()[0] == "up":

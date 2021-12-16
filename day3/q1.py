@@ -5,7 +5,7 @@ def binary_diagnostic(input):
 
   i,j = 0,0
   gamma = ""
-  epsilon = ""
+  epsilon = " "
   
   # for gamma
   while(i <= len(signals[0])-1):
